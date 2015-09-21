@@ -8,7 +8,23 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+
+
+
+@interface SecondViewController : UIViewController<UIActionSheetDelegate>
+{
+//    UIButton *btn_awardcenter;
+//    UIButton *btn_sales;
+//    UIButton *btn_appEvaluation;
+    UIBarButtonItem *leftButton;
+    UINavigationItem *navtitle;
+}
+@property (weak, nonatomic) IBOutlet UINavigationBar *navbar;
+
+
+
+
+
 
 
 @end
